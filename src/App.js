@@ -16,6 +16,7 @@ function App() {
     <Router>
       <div>
         <Navbar/>
+
       </div>
       <div>
         <Switch>
