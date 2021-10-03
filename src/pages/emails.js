@@ -1,11 +1,10 @@
 import React from 'react'; 
+import ListUpload from '../components/listUpload'
 
 
 function Emails() {
     return (
-      <p>
-          Welcome to the emails page
-      </p>
+      <ListUpload></ListUpload>
     );
   }
 
