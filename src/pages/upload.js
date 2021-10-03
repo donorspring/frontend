@@ -1,11 +1,10 @@
-import React from 'react'; 
+import React from 'react';
+import ListUpload from '../components/list-upload'
 
 
 function Uploads() {
     return (
-      <p>
-          Welcome to the Uploads page
-      </p>
+      <ListUpload></ListUpload>
     );
   }
 
