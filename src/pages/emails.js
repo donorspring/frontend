@@ -1,11 +1,12 @@
 import React from 'react'; 
-
+import EmailEdits from '../components/emails'; 
+import Example from '../components/example'
 
 function Emails() {
     return (
-      <p>
-        Emails page
-        </p>
+      <div>
+        <EmailEdits></EmailEdits>
+      </div>
     );
   }
 

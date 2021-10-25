@@ -1,12 +1,34 @@
 import React from 'react'; 
-import Navbar from '../components/navbar';
-
+import Donations from '../components/donations'; 
+import Container from '@material-ui/core/Container'; 
+import Grid from '@material-ui/core/Grid'; 
+import Card from '../components/card'; 
+import Chart from '../components/linechart'; 
 
 function Dashboard() {
   return (
-    <p>
-        Welcome to the Dashboard page
-    </p>
+    <Container>
+      <h1>Welcome Legal Aid Society</h1>
+      <Grid container spacing={3}>
+        <Grid item xs={12} sm={6} md={3}>
+          <Donations></Donations>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Chart></Chart>
+        </Grid>
+      </Grid>
+      <Grid container spacing={3}>
+        <Grid item xs={12} sm={6} md={3}>
+          <Card></Card>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Card></Card>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Card></Card>
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
 

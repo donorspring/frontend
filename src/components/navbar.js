@@ -8,6 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
 import HomeIcon from '@material-ui/icons/Home';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 const useStyles = makeStyles(theme => ({
     homeButton: {
@@ -27,7 +28,7 @@ const Navbar = () => {
     const classes = useStyles();
 
     return (
-        <AppBar position="static">
+        <AppBar position="static" style={{marginBottom: "25px"}}>
             <Toolbar>
                 <IconButton 
                     edge="start" 

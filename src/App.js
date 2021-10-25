@@ -10,13 +10,12 @@ import SignIn from './pages/sign-in';
 import Uploads from './pages/upload';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
 
-
 function App() {
+
   return (
     <Router>
       <div>
         <Navbar/>
-
       </div>
       <div>
         <Switch>
