@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import styled from 'styled-components';
+import Button from '@material-ui/core/Button'
 
 import EmailEditor from 'react-email-editor'; 
 import sample from './sample.json';
@@ -13,7 +14,7 @@ const Container = styled.div`
 
 const Bar = styled.div`
   flex: 1;
-  background-color: #61dafb;
+  background-color: #ffffff;
   color: #000;
   padding: 10px;
   display: flex;
@@ -37,7 +38,7 @@ const Bar = styled.div`
   }
 `;
 
-const Example = (props) => {
+const Template = (props) => {
   const emailEditorRef = useRef(null);
 
   const saveDesign = () => {
@@ -70,9 +71,10 @@ const Example = (props) => {
   return (
     <Container>
       <Bar>
-        <h1>React Email Editor (Demo)</h1>
+        <h1>Create your own template</h1>
 
-        <button onClick={saveDesign}>Save Design</button>
+        <Button onClick={onLoad}>New Template</Button>
+        <Button onClick={saveDesign}>Save Design</Button>
       </Bar>
 
       <React.StrictMode>
@@ -82,4 +84,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Template;

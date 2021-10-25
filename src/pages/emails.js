@@ -1,11 +1,12 @@
 import React from 'react'; 
 import EmailEdits from '../components/emails'; 
-import Example from '../components/example'
+import Template from '../components/template'
+import BlankTemplate from '../components/blank-template'
 
 function Emails() {
     return (
       <div>
-        <EmailEdits></EmailEdits>
+        <Template></Template>
       </div>
     );
   }
