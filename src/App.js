@@ -8,7 +8,9 @@ import Navbar from './components/navbar';
 import Payment from './pages/payment';
 import SignIn from './pages/sign-in';
 import Uploads from './pages/upload';
+import EmailEdits from './components/email-edits';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
+import { Email } from '@material-ui/icons';
 
 function App() {
 
@@ -26,6 +28,9 @@ function App() {
           <Route path="/payment" component={Payment}/>
           <Route path="/signin" component={SignIn}/>
           <Route path="/upload" component={Uploads}/>
+          <Route path="/email/template1" component={EmailEdits}/>
+          <Route path="/email/template2" component={EmailEdits}/>
+          <Route path="/email/template3" component={EmailEdits}/>
         </Switch>
       </div>
     </Router>
