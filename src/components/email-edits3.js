@@ -3,7 +3,7 @@ import EmailEditor from 'react-email-editor';
 import Button from '@material-ui/core/Button'; 
 import sample from './sample.json'; 
 
-class EmailEdits extends Component {
+class EmailEdits3 extends Component {
     
     render() {
 
@@ -34,8 +34,8 @@ class EmailEdits extends Component {
     onLoad = () => {
         // console.log(this.saveDesign); 
         const json = sample; 
-        this.editor.loadDesign(json)
+        // this.editor.loadDesign(json)
       }
   }
 
-export default EmailEdits; 
+export default EmailEdits3; 

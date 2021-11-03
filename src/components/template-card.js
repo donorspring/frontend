@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 
   
 function TemplateCard(props) {
-    const history = useHistory(); 
+  const history = useHistory(); 
 
 
     return (
