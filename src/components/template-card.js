@@ -11,20 +11,10 @@ function TemplateCard(props) {
 
 
     return (
-      <Card sx={{ minWidth: 275, height: 600 }}>
-        <ButtonBase onClick={() => {history.push('/email/template1')}}>
-          <CardContent>
-            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-              {props.templateTitle}
-            </Typography>
-            <Typography variant="body2">
-              <br />
-              <br />
-              <br />
-            </Typography>
-          </CardContent>
-      </ButtonBase>
-      </Card>
+      <div>
+      <p>${props.object.title}</p>
+
+      </div>
     );
   }
 

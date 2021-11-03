@@ -31,7 +31,7 @@ function App() {
           <Route path="/signin" component={SignIn}/>
           <Route path="/upload" component={Uploads}/>
           <Route path="/email/template1" component={EmailEdits}/>
-          <Route path="/email/template2" component={EmailEdits2}/>
+          <Route path="/email/template2" component={EmailEdits}/>
           <Route path="/email/template3" component={EmailEdits3}/>
         </Switch>
       </div>

@@ -31,34 +31,8 @@ function SelectTemplate () {
             <Add fontSize="large" onClick={() => {history.push('/email/template3')}}></Add>
         </IconButton> Create a new template
         <Grid container spacing={8}>
-                <Grid item xs={4} sx={{height: 600}}>
-                    <Card sx={{ minWidth: 275, height: 600 }}>
-                        <ButtonBase onClick={() => {history.push('/email/template2')}}>
-                        <CardContent>
-                            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                                <InsertPhoto fontSize="large"></InsertPhoto> Legal Aid Society
-                            </Typography>
-                            <Typography variant="body2">
-                                Last Updated: 10/13/21 <MoreVert></MoreVert>
-                            </Typography>
-                        </CardContent>
-                    </ButtonBase>
-                    </Card>
-                </Grid>
-                <Grid item xs={4} sx={{height: 600}}>
-                    <Card sx={{ minWidth: 275, height: 600 }}>
-                        <ButtonBase onClick={() => {history.push('/email/template1')}}>
-                        <CardContent>
-                            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                                <InsertPhoto fontSize="large"></InsertPhoto> Sample
-                            </Typography>
-                            <Typography variant="body2">
-                                Last Updated: 10/13/21 <MoreVert></MoreVert>
-                            </Typography>
-                        </CardContent>
-                    </ButtonBase>
-                    </Card>
-                </Grid>
+
+
         </Grid>
         </div>
     )
